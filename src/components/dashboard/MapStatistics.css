@@ -1,0 +1,70 @@
+/* Map Statistics Cards */
+.map-stat-card {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.map-stat-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.map-stat-card.pothole-stat {
+  background: linear-gradient(135deg, rgba(231, 76, 60, 0.2) 0%, rgba(231, 76, 60, 0.05) 100%);
+}
+
+.map-stat-card.confidence-stat {
+  background: linear-gradient(135deg, rgba(46, 204, 113, 0.2) 0%, rgba(46, 204, 113, 0.05) 100%);
+}
+
+.map-stat-card.highest-stat {
+  background: linear-gradient(135deg, rgba(52, 152, 219, 0.2) 0%, rgba(52, 152, 219, 0.05) 100%);
+}
+
+.map-stat-card.progress-stat {
+  background: linear-gradient(135deg, rgba(155, 89, 182, 0.2) 0%, rgba(155, 89, 182, 0.05) 100%);
+}
+
+.map-stat-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pothole-icon {
+  background: rgba(231, 76, 60, 0.2);
+  color: #e74c3c;
+}
+
+.confidence-icon {
+  background: rgba(46, 204, 113, 0.2);
+  color: #2ecc71;
+}
+
+.highest-icon {
+  background: rgba(52, 152, 219, 0.2);
+  color: #3498db;
+}
+
+.progress-icon {
+  background: rgba(155, 89, 182, 0.2);
+  color: #9b59b6;
+}
+
+.map-stat-label {
+  font-size: 0.85rem;
+  color: #bdc3c7;
+  font-weight: 600;
+}
+
+.map-stat-value {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #ffffff;
+}

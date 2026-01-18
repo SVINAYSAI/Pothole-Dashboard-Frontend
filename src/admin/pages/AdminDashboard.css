@@ -1,0 +1,155 @@
+.admin-dashboard {
+  max-width: 1400px;
+}
+
+.dashboard-header {
+  margin-bottom: 24px;
+}
+
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1e3c72;
+  margin-bottom: 8px;
+}
+
+.dashboard-subtitle {
+  color: #6c757d;
+  font-size: 1.1rem;
+}
+
+.stat-card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.stat-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.stat-content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.stat-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-details {
+  flex: 1;
+}
+
+.stat-value {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #1e3c72;
+  line-height: 1;
+  margin-bottom: 4px;
+}
+
+.stat-title {
+  font-size: 0.95rem;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.recent-users-card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.recent-users-card .card-header {
+  background: white;
+  border-bottom: 1px solid #e9ecef;
+  padding: 20px 24px;
+  border-radius: 16px 16px 0 0;
+}
+
+.recent-users-card .card-header h5 {
+  font-weight: 700;
+  color: #1e3c72;
+}
+
+.user-info-cell {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.user-avatar-sm {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.role-badge {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.role-badge.admin {
+  background: #fff3e0;
+  color: #ff9800;
+}
+
+.role-badge.user {
+  background: #e8ebfc;
+  color: #667eea;
+}
+
+.status-badge {
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.status-badge.active {
+  background: #e8f5e9;
+  color: #4caf50;
+}
+
+.status-badge.inactive {
+  background: #ffebee;
+  color: #f44336;
+}
+
+.table thead th {
+  border-bottom: 2px solid #e9ecef;
+  font-weight: 600;
+  color: #495057;
+  padding: 16px;
+  font-size: 0.9rem;
+}
+
+.table tbody td {
+  padding: 16px;
+  vertical-align: middle;
+  font-size: 0.95rem;
+}
+
+.table-hover tbody tr:hover {
+  background-color: #f8f9fa;
+}

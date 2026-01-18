@@ -1,0 +1,214 @@
+/* Analytics Dashboard - Modern & Professional Compact Theme */
+
+.analytics-dashboard {
+  min-height: 100vh;
+  padding: 1rem;
+  margin-top: 70px;
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+.analytics-dashboard .card {
+  background: #1e293b;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  color: #f8fafc;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.analytics-dashboard .card:hover {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.analytics-dashboard .card-header {
+  background: rgba(30, 41, 59, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 12px 12px 0 0;
+}
+
+/* Dashboard Header */
+.dashboard-header {
+  text-align: left;
+  padding: 0.5rem 0 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+  letter-spacing: -0.5px;
+}
+
+.dashboard-subtitle {
+  font-size: 0.85rem;
+  color: #94a3b8;
+  margin: 0;
+}
+
+/* KPI Cards */
+.kpi-card {
+  border-radius: 12px;
+  background: #1e293b;
+}
+
+.kpi-card .card-body {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.kpi-icon-wrapper {
+  width: 42px;
+  height: 42px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.kpi-content {
+  flex: 1;
+}
+
+.kpi-label {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.1rem;
+  font-weight: 600;
+}
+
+.kpi-value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+.kpi-description {
+  font-size: 0.7rem;
+  color: #64748b;
+  margin: 0;
+}
+
+.kpi-badge {
+  display: inline-block;
+  font-weight: 600;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}
+
+/* Chart Cards */
+.chart-card {
+  border-radius: 12px;
+  background: #1e293b;
+}
+
+.chart-card .card-header {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.chart-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.chart-subtitle {
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+.chart-card .card-body {
+  padding: 1rem;
+}
+
+/* Map Card */
+.map-card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.live-indicator {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #10b981;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+/* Alert Indicator */
+.alert-status-card {
+  background: #1e293b;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 0.5rem 0.75rem;
+  min-width: 200px;
+}
+
+.alert-indicator {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+}
+
+.alert-status-title {
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  font-weight: 600;
+}
+
+.alert-status-info {
+  font-size: 0.75rem;
+  color: #94a3b8;
+}
+
+/* Section Header */
+.section-header-box {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.section-header-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #ffffff;
+  margin: 0;
+}
+
+.section-header-subtitle {
+  font-size: 0.8rem;
+  color: #94a3b8;
+}
+
+/* Scrollbar Styling */
+.analytics-dashboard::-webkit-scrollbar {
+  width: 6px;
+}
+
+.analytics-dashboard::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+
+.analytics-dashboard::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 10px;
+}
+
+.analytics-dashboard::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}

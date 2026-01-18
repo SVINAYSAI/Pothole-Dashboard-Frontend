@@ -1,0 +1,71 @@
+.map-card {
+  background: rgba(30, 30, 46, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.37);
+  position: relative;
+}
+
+.map-placeholder, .map-loading {
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #95a5a6;
+}
+
+.map-actions {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 1000;
+}
+
+.map-action-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.center-btn {
+  background: linear-gradient(135deg, #4ECDC4 0%, #44A08D 100%);
+}
+
+.refresh-btn {
+  background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+}
+
+.map-action-btn:hover {
+  transform: scale(1.1);
+}
+
+.info-window {
+  padding: 10px;
+  min-width: 250px;
+  color: #2c3e50;
+}
+
+.info-window h6 {
+  margin: 0 0 10px 0;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.info-window p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
